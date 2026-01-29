@@ -6,3 +6,5 @@ define ("AUTHOR", "SEKOLAH.ID");
 echo AUTHOR . PHP_EOL;
 
 echo person::APP_VERSION . PHP_EOL;
+
+?>
