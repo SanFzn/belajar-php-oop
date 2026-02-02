@@ -29,4 +29,11 @@ class person
             echo "Hello $name, my name is $this->name" . PHP_EOL;
         }
     }
+
+
+    //Destructor
+    // function __destruct()
+    // {
+    //     echo "Object person {$this->name} is destroyed" . PHP_EOL;
+    // }
 }

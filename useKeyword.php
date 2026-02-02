@@ -2,8 +2,8 @@
 
 require_once 'data/conflict.php';
 
-use Data\One\Conflict as Conflict1;
-use Data\Two\Conflict as Conflict2;
+use Data\One\{Conflict as Conflict1, Conflict  as Conflict2};
+//use Data\Two\Conflict as Conflict2;
 use function Helper\helpMe;
 use const Helper\APPLICATION;
 
